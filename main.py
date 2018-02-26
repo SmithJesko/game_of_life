@@ -11,8 +11,6 @@ import pyglet
 from game_of_life import GameOfLife
 from config import width, height, fill_percent, cell_size, export
 
-i = 0
-
 class Window(pyglet.window.Window):
 
     def __init__(self):
